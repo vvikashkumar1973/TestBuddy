@@ -1,0 +1,63 @@
+/* Global theme */
+:root {
+  --tb-blue: #2563eb; /* blue-600 */
+  --tb-green: #22c55e; /* green-500 */
+  --tb-bg: #f8fafc; /* slate-50 */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, Helvetica, Arial, 'Apple Color Emoji',
+    'Segoe UI Emoji';
+  background-color: var(--tb-bg);
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #e0f2f1 0%, #d1e5f0 100%);
+}
+
+.cta-button {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.cta-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.feature-card,
+.testimonial-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.feature-card:hover,
+.testimonial-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* Mobile menu animation */
+#mobile-menu.hidden {
+  display: none;
+}
+
+#mobile-menu.show {
+  display: block;
+  animation: fadeIn 150ms ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
