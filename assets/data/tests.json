@@ -1,0 +1,15 @@
+{
+  "tests": [
+    { "id": "ssc-cgl-full-1", "exam": "SSC CGL", "type": "full", "title": "SSC CGL Full Mock 1" },
+    { "id": "ssc-cgl-full-2", "exam": "SSC CGL", "type": "full", "title": "SSC CGL Full Mock 2" },
+    { "id": "ssc-cgl-maths-1", "exam": "SSC CGL", "type": "subject", "subject": "Quantitative Aptitude", "title": "Quant Practice Set 1" },
+    { "id": "ssc-cgl-english-1", "exam": "SSC CGL", "type": "subject", "subject": "English", "title": "English Practice Set 1" },
+
+    { "id": "rrb-ntpc-full-1", "exam": "RRB NTPC", "type": "full", "title": "RRB NTPC Full Mock 1" },
+    { "id": "rrb-ntpc-gs-1", "exam": "RRB NTPC", "type": "subject", "subject": "General Science", "title": "GS Practice Set 1" },
+
+    { "id": "ibps-po-full-1", "exam": "IBPS PO", "type": "full", "title": "IBPS PO Full Mock 1" },
+    { "id": "ibps-po-reasoning-1", "exam": "IBPS PO", "type": "subject", "subject": "Reasoning", "title": "Reasoning Practice Set 1" }
+  ]
+}
+

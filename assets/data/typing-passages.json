@@ -1,0 +1,31 @@
+[
+    {
+      "level": "easy",
+      "text": "The quick brown fox jumps over the lazy dog. This classic sentence is often used to test typewriters and keyboards because it contains every letter of the alphabet. Consistent practice is the key to improving your typing speed and accuracy. Set aside a little time each day to work on your skills. Focus on maintaining a steady rhythm rather than rushing. Remember that accuracy is just as important as speed; it is better to type slowly and correctly than quickly with many errors. Over time, your fingers will develop muscle memory, and you will find yourself typing faster and more accurately without even thinking about it. Keep practicing, stay patient, and you will see significant improvement in your abilities."
+    },
+    {
+      "level": "easy",
+      "text": "A journey of a thousand miles begins with a single step. Every day presents a new opportunity to learn, to grow, and to move closer to your objectives. The only way to accomplish great work is to have a genuine passion for what you do. True sophistication is found in simplicity. Maintain a positive outlook, apply yourself diligently, and you can make your goals a reality. The ideal time to plant a tree was two decades ago, but the second-best time is right now. Do not underestimate the power of small, consistent efforts. They accumulate over time and lead to remarkable achievements. Embrace the process and celebrate your progress along the way."
+    },
+    {
+      "level": "medium",
+      "text": "Accountability in governance is a fundamental cornerstone of any modern democratic state. It is the mechanism that ensures the actions and decisions taken by public officials are subject to rigorous oversight, thereby guaranteeing that they align with the public interest. This crucial process helps to prevent corruption, enhances governmental efficiency, and cultivates essential trust between the administration and its citizens. Various instruments, such as social audits, the Right to Information (RTI) Act, an independent judiciary, and vigilant media, play an indispensable role in upholding this principle. The effectiveness of these mechanisms is a direct indicator of a democracy's health and maturity, ensuring that power is exercised responsibly for the welfare of all people."
+    },
+    {
+      "level": "medium",
+      "text": "The Constitution of India stands as the supreme law of the country, a comprehensive document that guides its governance. It meticulously lays down the framework defining fundamental political principles, establishes the structure, procedures, powers, and duties of all government institutions, and clearly sets out the fundamental rights, directive principles, and the duties of every citizen. Being the longest written constitution of any sovereign nation in the world, it is a testament to the complexity and diversity of India. The Preamble to the Constitution declares India to be a sovereign, socialist, secular, and democratic republic, assuring justice, liberty, equality to all citizens, and promoting fraternity to maintain unity and integrity of the nation. This living document has been amended over one hundred times to adapt to the changing needs of the country, reflecting its dynamic and resilient character."
+    },
+    {
+      "level": "hard",
+      "text": "The jurisprudential complexities surrounding intellectual property rights in the digital epoch necessitate a nuanced re-evaluation of traditional copyright and patent paradigms. The seamless proliferation of peer-to-peer file-sharing networks and the concomitant challenges they pose to conventional enforcement mechanisms require a sophisticated legislative and judicial response. Crafting this response involves delicately balancing the legitimate economic interests of creators and innovators with the overarching public good of ensuring widespread information accessibility. Issues such as digital rights management (DRM), fair use doctrines in the context of transformative works, and the jurisdictional ambiguities of the internet further complicate this intricate legal and ethical matrix, demanding continuous scholarly and parliamentary deliberation to foster an equitable digital ecosystem."
+    },
+    {
+      "level": "hard",
+      "text": "Quantum computing leverages the counter-intuitive principles of quantum mechanics, such as superposition and entanglement, to perform complex computations at speeds exponentially faster than those attainable by classical computers. Unlike classical bits, which can only represent a zero or a one, qubits can exist in a rich superposition of both states simultaneously. This property allows quantum computers to process immense datasets in parallel. This technological paradigm shift promises to revolutionize numerous fields, including cryptography, where it could break current encryption standards, as well as materials science and pharmacological research, by enabling the simulation of molecular interactions with unprecedented accuracy. The development of fault-tolerant quantum computers remains a significant engineering challenge, but its potential impact on science and society is undeniably profound."
+    },
+    {
+      "level": "hard",
+      "text": "India's fiscal policy, as articulated in the annual Union Budget, is a critical instrument for steering the nation's economic trajectory. It involves the government's strategic decisions regarding taxation, public expenditure, and borrowing to achieve macroeconomic objectives like sustainable growth, price stability, and equitable wealth distribution. The Fiscal Responsibility and Budget Management (FRBM) Act provides a legislative framework to ensure fiscal discipline. Concurrently, the monetary policy, managed by the Reserve Bank of India (RBI), uses tools like the repo rate and cash reserve ratio to regulate liquidity and manage inflation. The synergistic coordination between fiscal and monetary policies is paramount for navigating global economic uncertainties and fostering a resilient and dynamic domestic economy that can withstand external shocks while promoting inclusive development."
+    }
+  ]
+  

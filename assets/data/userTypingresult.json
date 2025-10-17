@@ -1,0 +1,25 @@
+{
+    "u_001": [
+      {
+        "date": "15-Oct-2025",
+        "duration": 60,
+        "wpm": 45,
+        "accuracy": 92
+      },
+      {
+        "date": "16-Oct-2025",
+        "duration": 120,
+        "wpm": 48,
+        "accuracy": 94
+      }
+    ],
+    "u_002": [
+      {
+        "date": "17-Oct-2025",
+        "duration": 60,
+        "wpm": 55,
+        "accuracy": 96
+      }
+    ]
+  }
+  

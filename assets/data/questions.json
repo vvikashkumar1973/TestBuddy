@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "id": "q_en_001",
+      "examTags": ["SSC CGL", "IBPS PO"],
+      "subject": "English",
+      "question": "Select the synonym of 'Abate'.",
+      "correctOption": "Diminish",
+      "distractors": [
+        "Increase",
+        "Aggravate",
+        "Prolong",
+        "Diminish",
+        "Amplify",
+        "Escalate",
+        "Heighten",
+        "Intensify",
+        "Magnify",
+        "Boost"
+      ]
+    },
+    {
+      "id": "q_math_001",
+      "examTags": ["SSC CGL", "RRB NTPC"],
+      "subject": "Math",
+      "question": "If x + y = 10 and x - y = 2, find x.",
+      "correctOption": "6",
+      "distractors": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "3",
+        "2",
+        "1"
+      ]
+    },
+    {
+      "id": "q_gk_001",
+      "examTags": ["RRB NTPC"],
+      "subject": "GK",
+      "question": "Who is known as the Father of the Indian Constitution?",
+      "correctOption": "B. R. Ambedkar",
+      "distractors": [
+        "M. K. Gandhi",
+        "Jawaharlal Nehru",
+        "B. R. Ambedkar",
+        "Sardar Patel",
+        "Rajendra Prasad",
+        "B. N. Rau",
+        "C. Rajagopalachari",
+        "Subhas Bose",
+        "Vallabhbhai Patel",
+        "Dr. Rajendra Prasad"
+      ]
+    }
+  ]
+}
+

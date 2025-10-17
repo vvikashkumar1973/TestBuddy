@@ -1,0 +1,45 @@
+{
+  "users": [
+    {
+      "id": "u_001",
+      "name": "Aarav Sharma",
+      "email": "aarav@example.com",
+      "mobile": "+91-9000000001",
+      "login": {
+        "provider": "password",
+        "passwordHash": "demo-hash-only-for-mock" 
+      },
+      "subscription": {
+        "plan": "Pro",
+        "status": "active",
+        "startDate": "2025-10-01",
+        "endDate": "2026-10-01",
+        "allowedExams": ["SSC CGL", "RRB NTPC", "IBPS PO"]
+      },
+      "attemptHistory": [
+        { "exam": "SSC CGL", "testId": "ssc-cgl-full-1", "score": 162, "maxMarks": 200, "ts": 1696156800000 },
+        { "exam": "SSC CGL", "testId": "ssc-cgl-english-1", "score": 78, "maxMarks": 100, "ts": 1696440000000 },
+        { "exam": "RRB NTPC", "testId": "rrb-ntpc-full-1", "score": 82, "maxMarks": 100, "ts": 1697044800000 }
+      ]
+    },
+    {
+      "id": "u_002",
+      "name": "Priya Singh",
+      "email": "priya@example.com",
+      "mobile": "+91-9000000002",
+      "login": {
+        "provider": "password",
+        "passwordHash": "demo-hash-only-for-mock"
+      },
+      "subscription": {
+        "plan": "Free",
+        "status": "trial",
+        "startDate": "2025-10-10",
+        "endDate": "2025-11-10",
+        "allowedExams": ["IBPS PO"]
+      },
+      "attemptHistory": []
+    }
+  ]
+}
+
