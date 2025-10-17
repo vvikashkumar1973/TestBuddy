@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tests - TestBuddy.in</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="text-gray-800">
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="TestBuddy.html" class="text-2xl font-bold text-blue-600">TestBuddy.in</a>
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="TestBuddy.html" class="nav-link text-gray-600 hover:text-blue-600 font-medium">Home</a>
+                <a href="Tests.html" class="nav-link text-blue-600 font-semibold">Tests</a>
+                <a href="Analytics.html" class="nav-link text-gray-600 hover:text-blue-600 font-medium">Analytics</a>
+                <a href="About.html" class="nav-link text-gray-600 hover:text-blue-600 font-medium">About</a>
+                <a href="Contact.html" class="nav-link text-gray-600 hover:text-blue-600 font-medium">Contact</a>
+            </div>
+            <div class="flex items-center space-x-4">
+                <a href="Login.html" class="bg-blue-600 text-white px-5 py-2 rounded-lg font-semibold cta-button">Login / Sign Up</a>
+                <button id="mobile-menu-button" class="md:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-600 hover:text-blue-600 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-600" aria-label="Open menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+                </button>
+            </div>
+        </nav>
+        <div id="mobile-menu" class="md:hidden hidden border-t border-gray-200 bg-white">
+            <div class="px-6 py-4 space-y-3">
+                <a href="TestBuddy.html" class="block nav-link text-gray-700 hover:text-blue-600">Home</a>
+                <a href="Tests.html" class="block nav-link text-gray-700 hover:text-blue-600">Tests</a>
+                <a href="Analytics.html" class="block nav-link text-gray-700 hover:text-blue-600">Analytics</a>
+                <a href="About.html" class="block nav-link text-gray-700 hover:text-blue-600">About</a>
+                <a href="Contact.html" class="block nav-link text-gray-700 hover:text-blue-600">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section py-16 md:py-24">
+            <div class="container mx-auto px-6 text-center">
+                <h1 class="text-4xl md:text-5xl font-extrabold text-gray-900 mb-3">Mock Tests</h1>
+                <p class="text-gray-700 max-w-2xl mx-auto">Select an exam to explore available mock tests and start practicing now.</p>
+            </div>
+        </section>
+        
+        <section id="tests-root" class="py-12 bg-white">
+            <div class="container mx-auto px-6 space-y-8">
+                <div class="flex items-end justify-between gap-4">
+                    <div class="flex items-center gap-3">
+                        <div>
+                            <div class="text-sm text-gray-500">Selected Exam</div>
+                            <div class="text-xl font-semibold text-gray-900" id="selected-exam-label">—</div>
+                        </div>
+                        <div>
+                            <label for="tests-exam-select" class="sr-only">Change exam</label>
+                            <select id="tests-exam-select" class="rounded-md border-gray-300 focus:border-blue-600 focus:ring-blue-600">
+                                <option value="">Select exam…</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div id="tests-kpis" class="flex-1"></div>
+                </div>
+
+                <div class="grid md:grid-cols-3 gap-8 items-start">
+                    <!-- Left: Full tests (scrollable) -->
+                    <div>
+                        <h2 class="text-lg font-semibold text-gray-900 mb-3">Full Tests</h2>
+                        <div id="tests-full" class="space-y-3 max-h-[480px] overflow-y-auto pr-2"></div>
+                    </div>
+
+                    <!-- Middle: Subject list -->
+                    <div>
+                        <h2 class="text-lg font-semibold text-gray-900 mb-3">Subjects</h2>
+                        <div id="subjects-list" class="space-y-2"></div>
+                    </div>
+
+                    <!-- Right: Tests for selected subject (scrollable) -->
+                    <div>
+                        <h2 class="text-lg font-semibold text-gray-900 mb-3">Subject Tests</h2>
+                        <div id="subject-kpis" class="mb-4"></div>
+                        <div id="subject-tests" class="space-y-3 max-h-[480px] overflow-y-auto pr-2"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-900 text-white pt-16 pb-8">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="col-span-1 md:col-span-2">
+                    <h3 class="text-2xl font-bold text-blue-400 mb-4">TestBuddy.in</h3>
+                    <p class="text-gray-400 max-w-md">Our mission is to provide affordable and high-quality exam preparation tools to every government job aspirant in India.</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-lg mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="TestBuddy.html" class="text-gray-400 hover:text-white">Home</a></li>
+                        <li><a href="Tests.html" class="text-gray-400 hover:text-white">Mock Tests</a></li>
+                        <li><a href="Analytics.html" class="text-gray-400 hover:text-white">Analytics</a></li>
+                        <li><a href="About.html" class="text-gray-400 hover:text-white">About</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-lg mb-4">Contact</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li>+91-9876543210</li>
+                        <li>support@testbuddy.in</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-6 text-center text-gray-500 text-sm">
+                <p>&copy; 2025 TestBuddy.in. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js" defer></script>
+</body>
+</html>
+
+
