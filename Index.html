@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TestBuddy.in - Ace Govt Exams with Smart Practice & Analysis</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Site Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#home" class="text-2xl font-bold text-blue-600">TestBuddy.in</a>
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="TestBuddy.html" class="nav-link text-gray-600 hover:text-blue-600 font-medium">Home</a>
+                <a href="Tests.html" class="nav-link text-gray-600 hover:text-blue-600 font-medium">Tests</a>
+                <a href="TypingBuddy.html" class="nav-link text-gray-600 hover:text-blue-600 font-medium">Typing Test</a>
+                <a href="Analytics.html" class="nav-link text-gray-600 hover:text-blue-600 font-medium">Analytics</a>
+                <a href="About.html" class="nav-link text-gray-600 hover:text-blue-600 font-medium">About</a>
+                <a href="Contact.html" class="nav-link text-gray-600 hover:text-blue-600 font-medium">Contact</a>
+            </div>
+            <div class="flex items-center space-x-4">
+                <a href="Login.html" class="bg-blue-600 text-white px-5 py-2 rounded-lg font-semibold cta-button">Login / Sign Up</a>
+                <button id="mobile-menu-button" class="md:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-600 hover:text-blue-600 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-600" aria-label="Open menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+                </button>
+            </div>
+        </nav>
+        <div id="mobile-menu" class="md:hidden hidden border-t border-gray-200 bg-white">
+            <div class="px-6 py-4 space-y-3">
+                <a href="TestBuddy.html" class="block nav-link text-gray-700 hover:text-blue-600">Home</a>
+                <a href="Tests.html" class="block nav-link text-gray-700 hover:text-blue-600">Tests</a>
+                <a href="Analytics.html" class="block nav-link text-gray-700 hover:text-blue-600">Analytics</a>
+                <a href="About.html" class="block nav-link text-gray-700 hover:text-blue-600">About</a>
+                <a href="Contact.html" class="block nav-link text-gray-700 hover:text-blue-600">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section py-20 md:py-32">
+            <div class="container mx-auto px-6 text-center">
+                <div class="max-w-4xl mx-auto">
+                    <h1 class="text-4xl md:text-6xl font-extrabold text-gray-900 mb-4 leading-tight">
+                        Ace Govt Exams with Smart Practice & Analysis
+                    </h1>
+                    <p class="text-lg md:text-xl text-gray-600 mb-8">
+                        Prepare for SSC, Railways, Banking, and other government exams with our data-driven mock tests and detailed performance analytics.
+                    </p>
+                    <div class="mx-auto max-w-xl">
+                        <div class="bg-white/80 backdrop-blur rounded-lg p-4 shadow">
+                            <label for="exam-select" class="block text-left text-sm font-medium text-gray-700 mb-2">Choose your exam</label>
+                            <div class="flex flex-col sm:flex-row gap-3">
+                                <select id="exam-select" class="w-full sm:flex-1 rounded-md border-gray-300 focus:border-blue-600 focus:ring-blue-600">
+                                    <option value="">Select an exam…</option>
+                                </select>
+                                <button id="exam-proceed" class="bg-green-500 text-white font-semibold px-6 py-3 rounded-md cta-button hover:bg-green-600">Proceed</button>
+                            </div>
+                            <p id="exam-meta" class="text-xs text-gray-600 mt-2 hidden"></p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- How It Works Section -->
+        <section id="how-it-works" class="py-20">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Your Path to Success in 4 Simple Steps</h2>
+                    <p class="text-gray-600 mt-2 max-w-2xl mx-auto">A straightforward process to turn your hard work into results.</p>
+                </div>
+                <div class="relative">
+                    <div class="hidden md:block absolute top-1/2 left-0 w-full h-0.5 border-t-2 border-dashed border-gray-300 -translate-y-1/2"></div>
+                    <div class="grid grid-cols-1 md:grid-cols-4 gap-12 relative">
+                        <div class="text-center">
+                            <div class="bg-white border-2 border-blue-500 text-blue-500 rounded-full h-24 w-24 flex items-center justify-center mx-auto mb-4 text-3xl font-bold shadow-lg">1</div>
+                            <h3 class="text-xl font-semibold mb-2">Take a Test</h3>
+                            <p class="text-gray-600">Choose from a wide range of mock tests for your specific exam.</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="bg-white border-2 border-blue-500 text-blue-500 rounded-full h-24 w-24 flex items-center justify-center mx-auto mb-4 text-3xl font-bold shadow-lg">2</div>
+                            <h3 class="text-xl font-semibold mb-2">Get Instant Results</h3>
+                            <p class="text-gray-600">Receive your score, rank, and detailed solutions immediately.</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="bg-white border-2 border-blue-500 text-blue-500 rounded-full h-24 w-24 flex items-center justify-center mx-auto mb-4 text-3xl font-bold shadow-lg">3</div>
+                            <h3 class="text-xl font-semibold mb-2">Analyze Performance</h3>
+                            <p class="text-gray-600">Dive deep into analytics to see time spent, accuracy, and more.</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="bg-white border-2 border-blue-500 text-blue-500 rounded-full h-24 w-24 flex items-center justify-center mx-auto mb-4 text-3xl font-bold shadow-lg">4</div>
+                            <h3 class="text-xl font-semibold mb-2">Improve & Succeed</h3>
+                            <p class="text-gray-600">Focus on weak areas, retake tests, and track your improvement.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Student Testimonials Section -->
+        <section id="testimonials" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Success Stories from Our Students</h2>
+                    <p class="text-gray-600 mt-2">See what our users have to say about their preparation journey.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="testimonial-card bg-gray-50 p-8 rounded-xl shadow-sm">
+                        <p class="text-gray-700 italic mb-6">"The analysis part is a game-changer. I could pinpoint exactly where I was losing marks and improved my score by 20 points in just a month. Highly recommended for serious aspirants."</p>
+                        <div class="flex items-center">
+                            <img src="https://placehold.co/50x50/c7d2fe/3730a3?text=AR" alt="Aarav Sharma" class="w-12 h-12 rounded-full mr-4">
+                            <div>
+                                <h4 class="font-semibold text-gray-900">Aarav Sharma</h4>
+                                <p class="text-sm text-blue-600">Cleared SSC CGL</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card bg-gray-50 p-8 rounded-xl shadow-sm">
+                        <p class="text-gray-700 italic mb-6">"TestBuddy's mock tests are very close to the actual exam pattern. It helped me manage my time effectively and reduced my exam anxiety. The platform is very user-friendly."</p>
+                        <div class="flex items-center">
+                             <img src="https://placehold.co/50x50/bbf7d0/166534?text=PS" alt="Priya Singh" class="w-12 h-12 rounded-full mr-4">
+                            <div>
+                                <h4 class="font-semibold text-gray-900">Priya Singh</h4>
+                                <p class="text-sm text-green-600">Selected in IBPS PO</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card bg-gray-50 p-8 rounded-xl shadow-sm">
+                        <p class="text-gray-700 italic mb-6">"I was struggling with the Quant section for Railways exam. The personalized suggestions helped me focus on my weak topics. Thank you TestBuddy for the amazing support!"</p>
+                        <div class="flex items-center">
+                           <img src="https://placehold.co/50x50/fecaca/991b1b?text=RK" alt="Rohan Kumar" class="w-12 h-12 rounded-full mr-4">
+                            <div>
+                                <h4 class="font-semibold text-gray-900">Rohan Kumar</h4>
+                                <p class="text-sm text-red-600">Joined Indian Railways</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white pt-16 pb-8">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <!-- About -->
+                <div class="col-span-1 md:col-span-2">
+                    <h3 class="text-2xl font-bold text-blue-400 mb-4">TestBuddy.in</h3>
+                    <p class="text-gray-400 max-w-md">Our mission is to provide affordable and high-quality exam preparation tools to every government job aspirant in India.</p>
+                </div>
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="font-semibold text-lg mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="TestBuddy.html" class="text-gray-400 hover:text-white">Home</a></li>
+                        <li><a href="Tests.html" class="text-gray-400 hover:text-white">Mock Tests</a></li>
+                        <li><a href="Analytics.html" class="text-gray-400 hover:text-white">Analytics</a></li>
+                        <li><a href="About.html" class="text-gray-400 hover:text-white">About</a></li>
+                    </ul>
+                </div>
+                <!-- Contact -->
+                <div id="contact">
+                    <h4 class="font-semibold text-lg mb-4">Contact</h4>
+                     <ul class="space-y-2">
+                        <li class="flex items-center text-gray-400">
+                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                            <span>+91-9876543210</span>
+                        </li>
+                         <li class="flex items-center text-gray-400">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                             <span>support@testbuddy.in</span>
+                         </li>
+                    </ul>
+                    <div class="flex space-x-4 mt-4">
+                        <a href="#" class="text-gray-400 hover:text-white"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-twitter"><path d="M22 4s-.7 2.1-2 3.4c1.6 1.4 3.3 4.9 3.3 4.9-6.1-1.4-12.1-1.4-12.1-1.4v-4.8c0 0 3.3-1.4 6.1-1.4 1 1 2.1 2.3 2.1 2.3-1.3-.4-2.9-.4-2.9-.4-1.3-.4-2.8-.4-2.8-.4-1.5 0-2.8 0-2.8 0-2.9 0-2.8-.4-2.8-.4s-1.3-1.4-1.3-2.8c0-1.5 1.5-2.8 1.5-2.8s3-1.4 4.3-1.4c1.3-.1 2.8 0 2.8 0s2.9.4 2.9 1.3c0 .9-.4 1.3-.4 1.3z"/></svg></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-6 text-center text-gray-500 text-sm">
+                <p>&copy; 2025 TestBuddy.in. All Rights Reserved. | <a href="#" class="hover:text-white">Privacy Policy</a> | <a href="#" class="hover:text-white">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script src="assets/js/main.js" defer></script>
+</html>
+
