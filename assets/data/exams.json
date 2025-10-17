@@ -1,0 +1,71 @@
+{
+  "exams": [
+    {
+      "name": "SSC CGL",
+      "stages": ["Prelims", "Mains"],
+      "pattern": {
+        "Prelims": {
+          "sections": [
+            { "name": "Quantitative Aptitude", "questions": 25, "marksPerQuestion": 2 },
+            { "name": "English", "questions": 25, "marksPerQuestion": 2 },
+            { "name": "General Intelligence & Reasoning", "questions": 25, "marksPerQuestion": 2 },
+            { "name": "General Awareness", "questions": 25, "marksPerQuestion": 2 }
+          ],
+          "negativeMarking": 0.5,
+          "maxMarks": 200
+        },
+        "Mains": {
+          "sections": [
+            { "name": "Quantitative Abilities", "questions": 100, "marksPerQuestion": 2 },
+            { "name": "English Language and Comprehension", "questions": 200, "marksPerQuestion": 1 }
+          ],
+          "negativeMarking": 0.25,
+          "maxMarks": 400
+        }
+      },
+      "marking": {
+        "defaultMaxMarks": 200,
+        "negativeMarking": true
+      }
+    },
+    {
+      "name": "RRB NTPC",
+      "stages": ["Stage 1", "Stage 2"],
+      "pattern": {
+        "Stage 1": {
+          "sections": [
+            { "name": "Mathematics", "questions": 30, "marksPerQuestion": 1 },
+            { "name": "General Intelligence & Reasoning", "questions": 30, "marksPerQuestion": 1 },
+            { "name": "General Awareness", "questions": 40, "marksPerQuestion": 1 }
+          ],
+          "negativeMarking": 0.33,
+          "maxMarks": 100
+        }
+      },
+      "marking": {
+        "defaultMaxMarks": 100,
+        "negativeMarking": true
+      }
+    },
+    {
+      "name": "IBPS PO",
+      "stages": ["Prelims", "Mains"],
+      "pattern": {
+        "Prelims": {
+          "sections": [
+            { "name": "English Language", "questions": 30, "marksPerQuestion": 1 },
+            { "name": "Quantitative Aptitude", "questions": 35, "marksPerQuestion": 1 },
+            { "name": "Reasoning Ability", "questions": 35, "marksPerQuestion": 1 }
+          ],
+          "negativeMarking": 0.25,
+          "maxMarks": 100
+        }
+      },
+      "marking": {
+        "defaultMaxMarks": 200,
+        "negativeMarking": true
+      }
+    }
+  ]
+}
+
